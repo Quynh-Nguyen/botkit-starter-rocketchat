@@ -977,25 +977,25 @@ body-parser@1.19.0, body-parser@^1.18.3, body-parser@^1.19.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-botbuilder-core@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/botbuilder-core/-/botbuilder-core-4.6.0.tgz#dd7546f37d2f74cb513668eb6d5079f3c86547cf"
-  integrity sha512-NrZENrtKDoe6SlFhc+tSdkSbC9qWhEFrk60VOUiT6Q4OMfz0eFZc3HwrcN2obcYc5eQteW+zCEvvi/r41DLP4g==
+botbuilder-core@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/botbuilder-core/-/botbuilder-core-4.6.1.tgz#3544b07ed714c60984956174a1b603e1036968e8"
+  integrity sha512-PsGsh1jWY7TjTGx9ZdPp6Rmep+8upatRZiKvVw2yY/sN8asfSgaHAzheTwz0e24ZKxXzoU+GV2ozKe2ctxzlWg==
   dependencies:
     assert "^1.4.1"
-    botframework-schema "^4.6.0"
+    botframework-schema "^4.6.1"
 
 botbuilder-dialogs@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/botbuilder-dialogs/-/botbuilder-dialogs-4.6.0.tgz#2dc4191e5609c97686fc73bc22fdfffbc13e2e1a"
-  integrity sha512-mDpxbh6A9DcXHXHQNkVHqWmyARtdrI3CyIEwa244n2O/KH9LKMQ+71oSwl82Qm8lsQTTAZ93atFQcgtMDtuEmQ==
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/botbuilder-dialogs/-/botbuilder-dialogs-4.6.1.tgz#97a01700ea349dd8e5a7434092e7def0b915ad58"
+  integrity sha512-fx/T1YM3EB7SKLGi8VZCKhM9gmsBAZdrsW3Lqm6zZRS8w7hTN2nklSeIFE6KagtLh+2KBNZP6Dhb2SdHWGHl3w==
   dependencies:
     "@microsoft/recognizers-text-choice" "1.1.4"
     "@microsoft/recognizers-text-date-time" "1.1.4"
     "@microsoft/recognizers-text-number" "1.1.4"
     "@microsoft/recognizers-text-suite" "1.1.4"
     "@types/node" "^10.12.18"
-    botbuilder-core "^4.6.0"
+    botbuilder-core "^4.6.1"
     cldr-data "^35.1.0"
     globalize "^1.4.2"
 
@@ -1023,35 +1023,35 @@ botbuilder@^3.15.0:
     url-join "^1.1.0"
 
 botbuilder@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/botbuilder/-/botbuilder-4.6.0.tgz#271a8f09159b758379e3bab873918c72d6749fdf"
-  integrity sha512-dXfyAjobTyJ5ViOurEt088uOw82cpuzQB+L1J041GbEBZ/DzjAAC/8TMGn++j4++kzE6WsFc+D0hZuBAF2YzgA==
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/botbuilder/-/botbuilder-4.6.1.tgz#c9a6ebf6e2858ed04060bd9f1451a195e8e64e17"
+  integrity sha512-uBJExq/iuwMJABBo1KZ6V/LJZ+50ziKdtyGQw0FRCnyXqV6PF2GL0VqqQCtHFTWkMVd70NBOQEmBxfvp5XuNoA==
   dependencies:
     "@types/node" "^10.12.18"
-    botbuilder-core "^4.6.0"
-    botframework-connector "^4.6.0"
+    botbuilder-core "^4.6.1"
+    botframework-connector "^4.6.1"
     filenamify "^4.1.0"
     fs-extra "^7.0.1"
 
-botframework-connector@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/botframework-connector/-/botframework-connector-4.6.0.tgz#c33677432837d90c9bf00b5298ccbc1e6160f538"
-  integrity sha512-sbqSWpZBC+0hA7+ExyaSJOy88XeuINTGWSOcAxx5JyJAXosBr0Bdd4y+I4evq5VhSj3GME2g/DYa8d73i/mFMQ==
+botframework-connector@^4.6.0, botframework-connector@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/botframework-connector/-/botframework-connector-4.6.1.tgz#f38c6a97aa27b6985c2cfbbb5c7cdcf6f8de58c7"
+  integrity sha512-ErnJ46FhfUbkwYZNbD81a3BgLTUySniozTgMw+5+cFjhJgEI+DcqLE+bnNkpV7+F/nfitDw4rpNiAEQDfDXcjw==
   dependencies:
     "@azure/ms-rest-js" "1.2.6"
     "@types/jsonwebtoken" "7.2.8"
     "@types/node" "^10.12.18"
     base64url "^3.0.0"
-    botframework-schema "^4.6.0"
+    botframework-schema "^4.6.1"
     form-data "^2.3.3"
     jsonwebtoken "8.0.1"
     node-fetch "^2.2.1"
     rsa-pem-from-mod-exp "^0.8.4"
 
-botframework-schema@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/botframework-schema/-/botframework-schema-4.6.0.tgz#cae05362d5660c1ebcfee320916a67615defd0b5"
-  integrity sha512-3ndSI2S17Do6RRncYN3Z+N1bkui9HPHIw2lyIGjyX7grukmAcnex/xfpafK++UqmhvF65OdY/Xa4njn7E/tKEQ==
+botframework-schema@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/botframework-schema/-/botframework-schema-4.6.1.tgz#83615cab9360cf6af413822601b5017a8ff3bff4"
+  integrity sha512-/01Si3tmNr2QrhSQhB2RnVStl4/tOy2rTY74XBRYHjEGFWr1kkQVjlwbQS0OaZFMgznVxtgPtpLkXLf6BSq1sQ==
 
 botkit-rocketchat-connector@^0.0.17:
   version "0.0.17"
