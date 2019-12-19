@@ -49,7 +49,7 @@ module.exports = (req, res, controller) => {
               "value": (logStream || '')
             }
           ],
-          "text": logSourceGroup + "\r\n" + logSourceMessage.substring(0, 200),
+          "text": logSourceGroup + "\r\n" + logSourceMessage.substring(0, 400),
           "title": `${logSourceGroup} #${logSourceOwner}`,
           "title_link": baseKibanaEndpoint,
           "ts": timestamp,
