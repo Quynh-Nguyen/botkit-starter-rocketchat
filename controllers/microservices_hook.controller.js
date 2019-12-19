@@ -24,7 +24,7 @@ module.exports = (req, res, controller) => {
     }
 
     message = {
-      channel: 'oeYyFJ63GQbxCnhaC',
+      channel: 'Bh677Sr3zMW7dv4p2',
       text: '',
       attachments: [
         {
