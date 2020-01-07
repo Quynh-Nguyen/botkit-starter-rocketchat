@@ -23,8 +23,19 @@ module.exports = (req, res, controller) => {
       color = '#2D9EE0'
     }
 
+    let channelId
+    if (logSourceGroup.includes('stack-k250')) {
+      channelId = 'Bh677Sr3zMW7dv4p2'
+    } else if (logSourceGroup.includes('stack-j2kp')) {
+      channelId = '2eJ3QBMFMo4eW3RfR'
+    } else if (logSourceGroup.includes('stack-j2kp-prod')) {
+      channelId = 'Bh677Sr3zMW7dv4p2'
+    } else {
+      channelId = 'Bh677Sr3zMW7dv4p2'
+    }
+
     message = {
-      channel: 'Bh677Sr3zMW7dv4p2',
+      channel: channelId,
       text: '',
       attachments: [
         {
